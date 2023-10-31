@@ -1,0 +1,53 @@
+/* NavBar.css */
+
+.NavBarmain {
+  background-color: #333; /* Background color of the Navbar */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoimg {
+  width: 50px; /* Adjust the logo image size as needed */
+  height: 50px; /* Adjust the logo image size as needed */
+}
+
+.NavRouting {
+  margin-right: 20px;
+}
+
+.nvbr {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nvbr li {
+  margin-right: 20px; /* Spacing between Nav items */
+}
+
+/* Style the Link element */
+.nvbr li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Text color for links */
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.nvbr li a:hover {
+  color: #ff5722; /* Change to your preferred hover color */
+}
+
+/* Style the active link */
+.nvbr li a.active {
+  color: #ff5722; /* Color for the active link */
+}
+
+  
